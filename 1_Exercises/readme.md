@@ -1,7 +1,5 @@
-<img alt="Logo" src="https://mentor.coderslab.pl/wp-content/uploads/2018/12/CL_IT_logo_ENG_1040x261_black_YELLOW-1.png" width="400">
+# React &ndash; exercises &ndash; basics and JSX
 
-# React
-> Important information
 
 Please read the following guidelines before doing the exercises.
 
@@ -19,19 +17,17 @@ Next, commit changes using `git commit -m "description_of_changes"`.
 5. Create a [*pull request*][pull-request] to the original repository when you have finished all the exercises.
 
 
-## Contents of this repository
+Remember to add comments with exercise numbers, e.g.:
 
-* 1_Exercises
-    * Here you will find tasks related to the classes. A few at the beginning are for the lecturer to show you how to solve the next ones. Complete them during class. Your mentor will not check them, but if in doubt during the exam, he may take a look at them. Upload them systematically on github.
+```JavaScript
+// Exercise 1
+{ Code for exercise 1 }
 
-* 2_Snippets
-    * Here you will find pieces of code that solve various problems. You may find them useful when doing exercises.
+//Exercise 2
+{ Code for exercise 2 }
 
-* 3_Homework
-    * Complete them at home on your own. They will be checked by your mentor. Remember to write the code for each exercise in a function so that it returns the values described in the exercise. Non-obligatory exercises (marked with * ) are for the eager and ambitious students - just like yourself, right? :). Do as many as you can. You can upload them any time. Ask your mentor about the deadline to complete the basic set of exercises.
-
-Do the exercises in appropriate files.
-
+...
+```
 
 <!-- Links -->
 [forking]: https://guides.github.com/activities/forking/

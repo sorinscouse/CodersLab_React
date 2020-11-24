@@ -1,0 +1,53 @@
+.shoplist div{
+    width:500px;
+    height:50px;
+    background: #eee;
+    border: 1px solid #ccc;
+    margin:5px;
+    padding:5px;
+}
+
+.shoplist div h1{
+    float:right;
+    width:440px;
+    margin-top:5px;
+}
+
+.shoplist div img{
+    width:50px;
+    height:50px;
+    float:left;
+}
+
+.chat {
+    width: 300px;
+    background: #eee;
+    border: 2px solid #ddd;
+}
+
+.chat header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.chat ul {
+    list-style: none;
+    padding: 0;
+}
+
+.chat ul li {
+    border: solid 1px #fff;
+    padding: 5px;
+}
+
+.chat footer input {
+    height: 30px;
+    width: 225px;
+    padding: 0;
+    border: 0;
+}
+
+.chat footer button {
+    height: 30px;
+    width: 75px;
+}

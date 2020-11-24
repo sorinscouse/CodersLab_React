@@ -1,0 +1,26 @@
+.person{
+    width: 650px;
+    height: 85px;
+    background: #efefef;
+    border: 2px solid #ccc;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.person img {
+    width: 64px;
+    height: 64px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.person .info{
+    display: inline-block;
+    width: 565px;
+    height: 74px;
+    vertical-align: middle;
+}
+
+.person .info h1, .person .info p{
+    margin:0;
+}

@@ -1,0 +1,28 @@
+/*
+ * @preserve
+ * Source: https://philipwalton.github.io/solved-by-flexbox/demos/holy-grail/
+ */
+
+.HolyGrail,
+.HolyGrail-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.HolyGrail-nav {
+    order: -1;
+}
+
+@media (min-width: 768px) {
+    .HolyGrail-body {
+        flex-direction: row;
+        flex: 1;
+    }
+    .HolyGrail-content {
+        flex: 1;
+    }
+    .HolyGrail-nav, .HolyGrail-ads {
+        /* 12em is the width of the columns */
+        flex: 0 0 12em;
+    }
+}
